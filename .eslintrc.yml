@@ -1,0 +1,39 @@
+env:
+  es6: true
+
+extends:
+  - airbnb-base
+  - prettier
+  - plugin:import/errors
+  - plugin:import/warnings
+  - plugin:jest/recommended
+  - plugin:react/recommended
+
+globals:
+  Atomics: readonly
+  SharedArrayBuffer: readonly
+
+parser: "babel-eslint"
+
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+  ecmaFeatures:
+    jsx: true
+
+settings:
+  react:
+    version: "detect"
+  import/resolver:
+    babel-module: {}
+
+plugins:
+  - jest
+  - prettier
+
+rules: {
+  "jest/expect-expect": "off",
+  "no-console": "off",
+  "prettier/prettier": "error",
+  "import/prefer-default-export": 0
+}

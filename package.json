@@ -1,0 +1,17 @@
+{
+  "name": "nextjs-with-apollo",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/ACloudGuru/nextjs-with-apollo",
+  "author": "Subash Adhikari <me@subash.com.au>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.0.4",
+    "eslint-plugin-react": "^7.16.0"
+  }
+}
