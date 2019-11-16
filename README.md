@@ -162,7 +162,7 @@ export default withApollo(createApolloClient);
 ## License
 Feel free to use the code, it's released using the MIT license.
 
-[npm-image]:https://img.shields.io/npm/v/nextjs-with-apollo.svg?logo=npm
+[npm-image]:https://img.shields.io/npm/v/nextjs-with-apollo.svg
 [npm-url]:https://www.npmjs.com/package/nextjs-with-apollo
 [license-image]:https://img.shields.io/github/license/adikari/nextjs-with-apollo.svg
 [license-url]:https://github.com/adikari/nextjs-with-apollo/blob/master/LICENSE
