@@ -2,6 +2,7 @@
 [![GitHub license][license-image]][license-url]
 [![LGTM Status][lgtm-image]][lgtm-url]
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7588b3bdb457430687e3688bf2cd6121)](https://www.codacy.com/manual/subash.adhikari/nextjs-with-apollo)
+[![Dependencies](https://img.shields.io/david/adikari/nextjs-with-apollo?logo=dependabot)](https://img.shields.io/david/adikari/nextjs-with-apollo)
 
 # ⚓ nextjs-with-apollo
 Apollo HOC for NextJS.
@@ -161,7 +162,7 @@ export default withApollo(createApolloClient);
 ## License
 Feel free to use the code, it's released using the MIT license.
 
-[npm-image]:https://img.shields.io/npm/v/nextjs-with-apollo.svg
+[npm-image]:https://img.shields.io/npm/v/nextjs-with-apollo.svg?logo=npm
 [npm-url]:https://www.npmjs.com/package/nextjs-with-apollo
 [license-image]:https://img.shields.io/github/license/adikari/nextjs-with-apollo.svg
 [license-url]:https://github.com/adikari/nextjs-with-apollo/blob/master/LICENSE
