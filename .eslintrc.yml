@@ -6,7 +6,6 @@ extends:
   - prettier
   - plugin:import/errors
   - plugin:import/warnings
-  - plugin:jest/recommended
   - plugin:react/recommended
 
 globals:
@@ -26,11 +25,9 @@ settings:
     version: "detect"
 
 plugins:
-  - jest
   - prettier
 
 rules: {
-  "jest/expect-expect": "off",
   "no-console": "off",
   "prettier/prettier": "error"
 }
