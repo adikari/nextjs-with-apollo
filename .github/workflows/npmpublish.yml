@@ -12,9 +12,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 10
-      - run: npm lint
-      - run: npm test
-      - run: npm build
+      - run: npm install -g yarn
+      - run: yarn install --pure-lockfile
+      - run: yarn lint
+      - run: yarn test
+      - run: yarn build
 
   publish-npm:
     needs: build
@@ -25,6 +27,8 @@ jobs:
         with:
           node-version: 10
           registry-url: https://registry.npmjs.org/
+      - run: npm install -g yarn
+      - run: yarn install --pure-lockfile
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
