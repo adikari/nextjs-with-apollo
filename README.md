@@ -1,6 +1,7 @@
 [![NPM Status][npm-image]][npm-url]
 [![GitHub license][license-image]][license-url]
 [![LGTM Status][lgtm-image]][lgtm-url]
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7588b3bdb457430687e3688bf2cd6121)](https://www.codacy.com/manual/subash.adhikari/nextjs-with-apollo)
 
 # ⚓ nextjs-with-apollo
 Apollo HOC for NextJS.
