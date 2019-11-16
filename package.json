@@ -12,7 +12,6 @@
     "lint": "eslint src",
     "test": "jest",
     "build": "babel ./src --out-dir ./lib",
-    "prepublish": "yarn lint && yarn build",
     "watch": "yarn build --watch"
   },
   "devDependencies": {
