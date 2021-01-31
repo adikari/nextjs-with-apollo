@@ -18,7 +18,7 @@
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.7",
     "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-react": "^7.12.10",
     "@testing-library/react": "^9.5.0",
     "apollo-cache-inmemory": "^1.6.3",
     "apollo-client": "^2.6.8",
